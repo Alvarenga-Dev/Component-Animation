@@ -13,7 +13,7 @@ import com.alvarengadev.componentanimation.R
 class CardAnimation(
     context: Context,
     attributeSet: AttributeSet
-) : ConstraintLayout(context, attributeSet) {
+) : MotionLayout(context, attributeSet) {
     private var view: View? = null
     private var motionLayout: MotionLayout? = null
     private var isClick = false
